@@ -2,3 +2,64 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #fce3bf;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #fd9800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title {
+    color: #75d8d8;
+    font-size: 44px;
+    text-shadow: 2px 2px 0px #ffee00;
+}
+.container {
+    width: 95%;
+    height: 500px;
+    margin: 10px auto;
+    background-color: #75d8d8;
+    border: 10px inset #ffee00;
+    display: flex;
+}
+#container-list {
+    width: 201px;
+    height: 305px;
+}
+#list-of-cats {
+    color: #ffee00;
+    font-size: 28px;
+    list-style: none;
+}
+#list-of-cats li {
+    width: 200px;
+    height: 60px;
+    background-color: #15d66c;
+    border-bottom: 1px solid #ffee00;
+    border-right: 1px solid #ffee00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#container-view {
+    width: 998.84px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#view {
+    text-align: center;
+    color: #ffee00;
+    font-size: 28px;
+}
+#img-cat img {
+    width: 500px;
+    border: 10px ridge #fd9800;
+    cursor: pointer;
+}
