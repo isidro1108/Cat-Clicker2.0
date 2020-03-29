@@ -45,6 +45,11 @@ header {
     border-right: 1px solid #ffee00;
     cursor: pointer;
 }
+#list-of-cats li:hover {
+    background-color: #7701d8;
+    color: #fff;
+    transition: 0.7s;
+}
 #container-view {
     width: 998.84px;
     height: 500px;
