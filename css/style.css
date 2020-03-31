@@ -87,6 +87,7 @@ header {
     margin: 10px;
 }
 #admin-form {
+    display: none;
     position: relative;
     top: -30px;
     width: 50%;
