@@ -129,6 +129,7 @@ var view3 = {
             listOfCats[0].src = obj.source.value
             listOfCats[0].counter = obj.clicks.value
             controller.renderAll()
+            obj.form.style.display = 'none'
         })
         this.render(listOfCats)
     },
