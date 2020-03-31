@@ -12,10 +12,25 @@
         <h1 id="title">Cat Clicker 2.0</h1>
     </header>
     <div class="container">
-        <div id="container-list">
+        <div id="container-list-and-admin">
             <ul id="list-of-cats"></ul>
+            <div id="container-admin">
+                <button class= "button" id="display-admin">Admin</button>
+                <form id="admin-form">
+                    <label for="f-name" id="l-name">Name</label>
+                    <input type="text" name="fName" class="form-input" id="f-name">
+                    <label for="f-src" id="l-src">Source</label>
+                    <input type="text" name="fSrc" class="form-input" id="f-src">
+                    <label for="f-counter-clicks" id="l-counter-clicks">Clicks</label>
+                    <input type="text" name="counterClicks" class="form-input" id="f-counter-clicks">
+                    <div id="form-buttons">
+                        <input type="button" class= "button" id="cancel" value="Cancel">
+                        <input type="button" class= "button" id="save" value="Save">
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="design-flex" id="container-view">
+        <div id="container-view">
             <div id="view">
                 <label for="img-cat" id="name"></label>
                 <div id="img-cat"></div>
